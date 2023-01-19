@@ -8,7 +8,7 @@ const networkCtx = networkCanvas.getContext("2d");
 
 const road = new Road(carCanvas.width / 2, carCanvas.width * 0.9);
 
-const N = 100;
+const N = 500;
 const cars = generateCars(N);
 let bestCar = cars[0];
 bestCar.color = "pink";
